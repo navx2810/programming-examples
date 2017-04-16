@@ -1,0 +1,9 @@
+h1. Programming Examples
+
+This repository contains examples of programming problems written in Kotlin. Each sub-folder contains a different problem and solution set.
+
+h2. Sub-folder structure.
+
+- README := the read-me in each sub-folder contains the documentation including the problem definition and proposed solution.
+- Main.kt := the main kotlin file will be the entry point of the program.
+- Source Files/Folders := the files contain additional code that the main.kt will run.
