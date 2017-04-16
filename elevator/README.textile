@@ -1,0 +1,18 @@
+h1. Elevator problem
+
+This problem is a common interview question. The surveyee is asked to write psuedo-code (or sometimes real code) that would operate a elevator.
+
+h2. My Solution
+
+There is an algorithm called the elevator seek algorithm when dealing with memory. This algorithm works perfectly here. 
+
+In this case, there is a flag for direction. The elevator will follow that direction and open to floors that are in the direction the elevator is facing, if no more operations are found in that current direction, the direction is switched and the process repeats until idle.
+
+h3. Definitions
+
+* The elevator can only be called on each floor with no discernable direction (up, or down)
+* The elevator only contains one door
+* The elevator only can be operated inside the lift by pressing the button representing the floor the user wants to visit
+
+The lift will operate via an interface that only allows the control of the lift to go up or down one level. The software will handle the rest of the job.
+
